@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="main__app">
+        <div class="search__box">
+            <input type="text" onfocus="this.value=''" class="search" placeholder="Search City Here">
+        </div>
+        <div class="location">
+   
+          <p class="city"></p>
+          <p class="date"></p>
+          <div class="time__zone">
+            <p class="time"></p>
+            <p class="sunrise"></p>
+          </div>
+        </div>
+        <div class="weather__app">
+          <p class="icon"></p>
+            <p class="temp"></p>
+            <p class="weather"></p>
+              <p class="min__max-temp"></p>
+              <div class="weather__sub">
+                <p class="presure"> </p>
+                <p class="humidity"></p>
+              </div>
+          
+        </div>
+    </div>
+    <script src="app/main.js"></script>
+</body>
+</html>
