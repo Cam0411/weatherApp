@@ -72,7 +72,7 @@ const api = {
       presure.innerHTML = `<i class="fas fa-tint"></i> ${Math.round(weather.main.pressure)}`
      
       humidity.innerHTML = `<i class="fas fa-tint-slash"></i> ${Math.round(weather.main.humidity)}%`
-      icon.innerHTML = `<img src="http://openweathermap.org/img/w/${weather.weather[0].icon}.png" alt="img"></img>`
+      icon.innerHTML = `<img src="https://openweathermap.org/img/w/${weather.weather[0].icon}.png" alt="img"></img>`
      
       changeBackground()
 
