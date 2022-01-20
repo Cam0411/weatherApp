@@ -80,7 +80,7 @@ const api = {
 function changeBackground(){
    
     if ( weather_main.innerText == "Clouds"){
-        document.body.style.background = "linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url('https://i.pinimg.com/originals/e0/a3/b7/e0a3b7122280d22b83b22155e9436ade.jpg') no-repeat  fixed,  center  "
+        document.body.style.background = "linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url('https://cdn.wallpapersafari.com/37/88/J4zjBf.jpg') no-repeat  fixed,  center  "
         document.body.style.backgroundSize = "cover";
      
       }else if (weather_main.innerText == "Clear"){
